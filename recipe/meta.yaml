@@ -14,7 +14,7 @@ build:
   script: {{ PYTHON }} -m pip install . -vv
   noarch: python
   patches:
-    - change_imports.patch
+    - change_imports_and_init.patch
 
 requirements:
   build:
