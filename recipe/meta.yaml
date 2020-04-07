@@ -27,11 +27,11 @@ requirements:
     - python
     - {{ pin_compatible('numpy') }}
     - scipy
-    - setuptools 
+    - setuptools
 
 test:
   imports:
-    - sparse_dot_topn.sparse_dot_topn
+    - sparse_dot_topn
 
 about:
   home: https://github.com/ing-bank/sparse_dot_topn
