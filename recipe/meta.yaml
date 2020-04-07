@@ -13,12 +13,8 @@ build:
   number: 1
   script: {{ PYTHON }} -m pip install . -vv
   noarch: python
-  patches:
-    - change_imports_and_init.patch
 
 requirements:
-  build:
-    - {{ compiler('cxx') }}
   host:
     - pip
     - python
